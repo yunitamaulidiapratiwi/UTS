@@ -2,7 +2,7 @@
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
@@ -49,7 +49,8 @@
         android:layout_marginTop="20dp"
         android:text="Registrasi"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="429dp" />
+        tools:layout_editor_absoluteY="429dp"
+        android:onClick="handleregistrasi"/>
 
     <Button
         android:id="@+id/button2"
@@ -59,5 +60,6 @@
         android:layout_marginTop="5dp"
         android:text="Login"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="429dp" />
+        tools:layout_editor_absoluteY="429dp"
+        android:onClick="handlelogin"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
